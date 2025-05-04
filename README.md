@@ -8,3 +8,7 @@ This shi fixed my random freezes that made Linux unusable.
 I basically added the following to the `GRUB_CMDLINE_LINUX_DEFAULT=` line in /etc/default/grub:
 
 ```module_blacklist=ucsi_acpi zswap.enabled=0 intel_idle.max_cstate=4```
+
+---
+
+This repo contains my own /etc/default/grub file for reference (or if you just wanna steal it).
